@@ -1,56 +1,56 @@
 # Library Management System API
 
-# This is a Flask-based RESTful API designed for managing books and members in a library.
-# The system supports CRUD operations, search functionality, pagination, and token-based authentication for secure access.
+ This is a Flask-based API designed for managing books and members in a library.
+ The system supports CRUD operations, search functionality, pagination, and token-based authentication for secure access.
 
 # Features:
-# - Books Management: Add, view, update, and delete books.
-# - Members Management: Manage library members with CRUD operations.
-# - Search Functionality: Search books by title or author.
-# - Pagination: Efficiently handle large datasets with paginated endpoints.
-# - Authentication: Secure the API with token-based authentication.
+ - Books Management: Add, view, update, and delete books.
+ - Members Management: Manage library members with CRUD operations.
+ - Search Functionality: Search books by title or author.
+ - Pagination: Efficiently handle large datasets with paginated endpoints.
+ - Authentication: Secure the API with token-based authentication.
 
 # Requirements:
-# Ensure you have the following installed before running the application:
-# - Python 3.8 or higher
-# - pip (Python package manager)
+ Ensure you have the following installed before running the application:
+ - Python 3.8 or higher
+ - pip (Python package manager)
 
 # Installation and Setup:
 
-# 1. Clone the Repository:
+1. Clone the Repository:
 git clone https://github.com/your-repo/library-management-api.git
 cd library-management-api
 
-# 2. Set Up a Virtual Environment:
+2. Set Up a Virtual Environment:
 python -m venv venv
 source venv/bin/activate  # For Linux/MacOS
 venv\Scripts\activate     # For Windows
 
-# 3. Run the Application:
+3. Run the Application:
 flask run
-# The API will be available at http://127.0.0.1:5000.
+The API will be available at http://127.0.0.1:5000.
 
 # Books:
-# - GET /books: Retrieve a list of books with optional pagination.
-# - POST /books: Add a new book.
-# - GET /books/<id>: Retrieve details of a specific book.
-# - PUT /books/<id>: Update a book's information.
-# - DELETE /books/<id>: Delete a book.
+ - GET /books: Retrieve a list of books with optional pagination.
+ - POST /books: Add a new book.
+ - GET /books/<id>: Retrieve details of a specific book.
+ - PUT /books/<id>: Update a book's information.
+ - DELETE /books/<id>: Delete a book.
 
 # Members:
-# - GET /members: Retrieve a list of members with optional pagination.
-# - POST /members: Add a new member.
-# - GET /members/<id>: Retrieve details of a specific member.
-# - PUT /members/<id>: Update a member's information.
-# - DELETE /members/<id>: Delete a member.
+ - GET /members: Retrieve a list of members with optional pagination.
+ - POST /members: Add a new member.
+ - GET /members/<id>: Retrieve details of a specific member.
+ - PUT /members/<id>: Update a member's information.
+ - DELETE /members/<id>: Delete a member.
 
 # License:
-# This project is licensed under the MIT License. See the LICENSE file for details.
+ This project is licensed under the MIT License. See the LICENSE file for details.
 
 # Contact:
-# For any queries or suggestions, please contact:
-# - Email: alok.gupta.bnp@gmail.com
-# - GitHub: https://github.com/ALokg9
+ For any queries or suggestions, please contact:
+ - Email: alok.gupta.bnp@gmail.com
+ - GitHub: https://github.com/ALokg9
 
 Here are some output:
 Create a Book:
