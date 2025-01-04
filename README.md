@@ -18,15 +18,16 @@
 # Installation and Setup:
 
 1. Clone the Repository:
-git clone https://github.com/your-repo/library-management-api.git
+git clone https://github.com/Alokg9/library-management-api.git and then
 cd library-management-api
 
 2. Set Up a Virtual Environment:
 python -m venv venv
 source venv/bin/activate  # For Linux/MacOS
+
 venv\Scripts\activate     # For Windows
 
-3. Run the Application:
+4. Run the Application:
 flask run
 The API will be available at http://127.0.0.1:5000.
 
