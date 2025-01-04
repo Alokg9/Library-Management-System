@@ -18,22 +18,31 @@
 # Installation and Setup:
 
 1. Clone the Repository:
- ```bash
-https://github.com/Alokg9/Library-Management-System.git 
+git clone https://github.com/Alokg9/library-management-api.git and then
 cd library-management-api
-```
-3. Set Up a Virtual Environment:
- ```bash
+
+2. Set Up a Virtual Environment:
 python -m venv venv
 source venv/bin/activate  # For Linux/MacOS
 
 venv\Scripts\activate     # For Windows
+
+3. Start the server:
+```bash
+python app.py
 ```
-4. Run the Application:
- ```bash
-flask run
+The API will be available at http://127.0.0.1:5000
+
+4. Tests
+Run automated tests:
+```bash
+python tests.py
 ```
-The API will be available at http://127.0.0.1:5000.
+#Assumptions
+-Only a simple in-memory database is used.
+-Token is hardcoded for simplicity.
+#Limitations
+-Data is not persistent and will reset when the server restarts.
 
 # Books:
  - GET /books: Retrieve a list of books with optional pagination.
