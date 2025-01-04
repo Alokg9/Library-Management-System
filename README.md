@@ -18,14 +18,20 @@
 # Installation and Setup:
 
 1. Clone the Repository:
-git clone https://github.com/Alokg9/library-management-api.git and then
+```bash
+git clone https://github.com/Alokg9/library-management-api.git
+```
+```bash
 cd library-management-api
+```
 
-2. Set Up a Virtual Environment:
+3. Set Up a Virtual Environment:
+```bash
 python -m venv venv
 source venv/bin/activate  # For Linux/MacOS
 
 venv\Scripts\activate     # For Windows
+```
 
 3. Start the server:
 ```bash
