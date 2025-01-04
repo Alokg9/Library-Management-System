@@ -39,10 +39,11 @@ Run automated tests:
 python tests.py
 ```
 #Assumptions
--Only a simple in-memory database is used.
--Token is hardcoded for simplicity.
+ -Only a simple in-memory database is used.
+ -Token is hardcoded for simplicity.
+
 #Limitations
--Data is not persistent and will reset when the server restarts.
+ -Data is not persistent and will reset when the server restarts.
 
 # Books:
  - GET /books: Retrieve a list of books with optional pagination.
